@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F15F4C919495E2D001564E0 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F15F4C719495E2D001564E0 /* MovieDetailViewController.swift */; };
+		9F15F4CA19495E2D001564E0 /* MovieDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F15F4C819495E2D001564E0 /* MovieDetailViewController.xib */; };
+		9F15F4CD1949F101001564E0 /* MovieEntryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F15F4CB1949F101001564E0 /* MovieEntryTableViewCell.swift */; };
+		9F15F4CE1949F101001564E0 /* MovieEntryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F15F4CC1949F101001564E0 /* MovieEntryTableViewCell.xib */; };
+		9F9709EE19493C2C00355F7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9709ED19493C2C00355F7A /* AppDelegate.swift */; };
+		9F9709F019493C2C00355F7A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F9709EF19493C2C00355F7A /* Images.xcassets */; };
+		9F9709FC19493C2C00355F7A /* SwiftTomatoesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9709FB19493C2C00355F7A /* SwiftTomatoesTests.swift */; };
+		9F970A0B19493DC900355F7A /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F970A0919493DC900355F7A /* MovieListViewController.swift */; };
+		9F970A0C19493DC900355F7A /* MovieListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F970A0A19493DC900355F7A /* MovieListViewController.xib */; };
+		9F970A0E19494AF400355F7A /* MovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F970A0D19494AF400355F7A /* MovieList.swift */; };
+		9F970A1019494B2400355F7A /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F970A0F19494B2400355F7A /* Movie.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F9709F619493C2C00355F7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F9709E019493C2C00355F7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F9709E719493C2C00355F7A;
+			remoteInfo = SwiftTomatoes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F15F4C719495E2D001564E0 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		9F15F4C819495E2D001564E0 /* MovieDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieDetailViewController.xib; sourceTree = "<group>"; };
+		9F15F4CB1949F101001564E0 /* MovieEntryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieEntryTableViewCell.swift; sourceTree = "<group>"; };
+		9F15F4CC1949F101001564E0 /* MovieEntryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieEntryTableViewCell.xib; sourceTree = "<group>"; };
+		9F9709E819493C2C00355F7A /* SwiftTomatoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTomatoes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F9709EC19493C2C00355F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F9709ED19493C2C00355F7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F9709EF19493C2C00355F7A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9F9709F519493C2C00355F7A /* SwiftTomatoesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTomatoesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F9709FA19493C2C00355F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F9709FB19493C2C00355F7A /* SwiftTomatoesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTomatoesTests.swift; sourceTree = "<group>"; };
+		9F970A0919493DC900355F7A /* MovieListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
+		9F970A0A19493DC900355F7A /* MovieListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieListViewController.xib; sourceTree = "<group>"; };
+		9F970A0D19494AF400355F7A /* MovieList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieList.swift; sourceTree = "<group>"; };
+		9F970A0F19494B2400355F7A /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F9709E519493C2C00355F7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F9709F219493C2C00355F7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F9709DF19493C2C00355F7A = {
+			isa = PBXGroup;
+			children = (
+				9F9709EA19493C2C00355F7A /* SwiftTomatoes */,
+				9F9709F819493C2C00355F7A /* SwiftTomatoesTests */,
+				9F9709E919493C2C00355F7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F9709E919493C2C00355F7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F9709E819493C2C00355F7A /* SwiftTomatoes.app */,
+				9F9709F519493C2C00355F7A /* SwiftTomatoesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F9709EA19493C2C00355F7A /* SwiftTomatoes */ = {
+			isa = PBXGroup;
+			children = (
+				9F9709ED19493C2C00355F7A /* AppDelegate.swift */,
+				9F9709EF19493C2C00355F7A /* Images.xcassets */,
+				9F9709EB19493C2C00355F7A /* Supporting Files */,
+				9F970A0919493DC900355F7A /* MovieListViewController.swift */,
+				9F970A0A19493DC900355F7A /* MovieListViewController.xib */,
+				9F970A0D19494AF400355F7A /* MovieList.swift */,
+				9F970A0F19494B2400355F7A /* Movie.swift */,
+				9F15F4C719495E2D001564E0 /* MovieDetailViewController.swift */,
+				9F15F4C819495E2D001564E0 /* MovieDetailViewController.xib */,
+				9F15F4CB1949F101001564E0 /* MovieEntryTableViewCell.swift */,
+				9F15F4CC1949F101001564E0 /* MovieEntryTableViewCell.xib */,
+			);
+			path = SwiftTomatoes;
+			sourceTree = "<group>";
+		};
+		9F9709EB19493C2C00355F7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F9709EC19493C2C00355F7A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F9709F819493C2C00355F7A /* SwiftTomatoesTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F9709FB19493C2C00355F7A /* SwiftTomatoesTests.swift */,
+				9F9709F919493C2C00355F7A /* Supporting Files */,
+			);
+			path = SwiftTomatoesTests;
+			sourceTree = "<group>";
+		};
+		9F9709F919493C2C00355F7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F9709FA19493C2C00355F7A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F9709E719493C2C00355F7A /* SwiftTomatoes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F9709FF19493C2C00355F7A /* Build configuration list for PBXNativeTarget "SwiftTomatoes" */;
+			buildPhases = (
+				9F9709E419493C2C00355F7A /* Sources */,
+				9F9709E519493C2C00355F7A /* Frameworks */,
+				9F9709E619493C2C00355F7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftTomatoes;
+			productName = SwiftTomatoes;
+			productReference = 9F9709E819493C2C00355F7A /* SwiftTomatoes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F9709F419493C2C00355F7A /* SwiftTomatoesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F970A0219493C2C00355F7A /* Build configuration list for PBXNativeTarget "SwiftTomatoesTests" */;
+			buildPhases = (
+				9F9709F119493C2C00355F7A /* Sources */,
+				9F9709F219493C2C00355F7A /* Frameworks */,
+				9F9709F319493C2C00355F7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F9709F719493C2C00355F7A /* PBXTargetDependency */,
+			);
+			name = SwiftTomatoesTests;
+			productName = SwiftTomatoesTests;
+			productReference = 9F9709F519493C2C00355F7A /* SwiftTomatoesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F9709E019493C2C00355F7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Michael Emery";
+				TargetAttributes = {
+					9F9709E719493C2C00355F7A = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					9F9709F419493C2C00355F7A = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 9F9709E719493C2C00355F7A;
+					};
+				};
+			};
+			buildConfigurationList = 9F9709E319493C2C00355F7A /* Build configuration list for PBXProject "SwiftTomatoes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9F9709DF19493C2C00355F7A;
+			productRefGroup = 9F9709E919493C2C00355F7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F9709E719493C2C00355F7A /* SwiftTomatoes */,
+				9F9709F419493C2C00355F7A /* SwiftTomatoesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F9709E619493C2C00355F7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F15F4CA19495E2D001564E0 /* MovieDetailViewController.xib in Resources */,
+				9F15F4CE1949F101001564E0 /* MovieEntryTableViewCell.xib in Resources */,
+				9F9709F019493C2C00355F7A /* Images.xcassets in Resources */,
+				9F970A0C19493DC900355F7A /* MovieListViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F9709F319493C2C00355F7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F9709E419493C2C00355F7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F970A0E19494AF400355F7A /* MovieList.swift in Sources */,
+				9F15F4C919495E2D001564E0 /* MovieDetailViewController.swift in Sources */,
+				9F9709EE19493C2C00355F7A /* AppDelegate.swift in Sources */,
+				9F15F4CD1949F101001564E0 /* MovieEntryTableViewCell.swift in Sources */,
+				9F970A1019494B2400355F7A /* Movie.swift in Sources */,
+				9F970A0B19493DC900355F7A /* MovieListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F9709F119493C2C00355F7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F9709FC19493C2C00355F7A /* SwiftTomatoesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F9709F719493C2C00355F7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F9709E719493C2C00355F7A /* SwiftTomatoes */;
+			targetProxy = 9F9709F619493C2C00355F7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9F9709FD19493C2C00355F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F9709FE19493C2C00355F7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F970A0019493C2C00355F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SwiftTomatoes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9F970A0119493C2C00355F7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SwiftTomatoes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9F970A0319493C2C00355F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwiftTomatoes.app/SwiftTomatoes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftTomatoesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		9F970A0419493C2C00355F7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwiftTomatoes.app/SwiftTomatoes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftTomatoesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F9709E319493C2C00355F7A /* Build configuration list for PBXProject "SwiftTomatoes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F9709FD19493C2C00355F7A /* Debug */,
+				9F9709FE19493C2C00355F7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F9709FF19493C2C00355F7A /* Build configuration list for PBXNativeTarget "SwiftTomatoes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F970A0019493C2C00355F7A /* Debug */,
+				9F970A0119493C2C00355F7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F970A0219493C2C00355F7A /* Build configuration list for PBXNativeTarget "SwiftTomatoesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F970A0319493C2C00355F7A /* Debug */,
+				9F970A0419493C2C00355F7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F9709E019493C2C00355F7A /* Project object */;
+}
